@@ -486,8 +486,9 @@ select:disabled {
 button,
 [type=button],
 [type=reset],
-[type=submit]
-
+[type=submit] {
+  -webkit-appearance: button;
+}
 button:not(:disabled),
 [type=button]:not(:disabled),
 [type=reset]:not(:disabled),
@@ -543,6 +544,7 @@ legend + * {
 }
 
 [type=search] {
+  -webkit-appearance: textfield;
   outline-offset: -2px;
 }
 
@@ -564,6 +566,7 @@ legend + * {
 
 ::file-selector-button {
   font: inherit;
+  -webkit-appearance: button;
 }
 
 output {
@@ -7940,26 +7943,6 @@ textarea.form-control-lg {
   margin-top: 3rem !important;
 }
 
-.mt-6 {
-  margin-top: 3.5rem !important;
-}
-
-.mt-7 {
-  margin-top: 4rem !important;
-}
-
-.mt-8 {
-  margin-top: 4.5rem !important;
-}
-
-.mt-9 {
-  margin-top: 5rem !important;
-}
-
-.mt-10 {
-  margin-top: 5.5rem !important;
-}
-
 .mt-auto {
   margin-top: auto !important;
 }
@@ -11982,7 +11965,9 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
@@ -12008,11 +11993,13 @@ body {
   line-height: 1;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
@@ -24452,16 +24439,26 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
-.imgHero {
-  height: 700px;
-  filter: brightness(50%);
+.cNav {
+  width: 1500px;
 }
 
-.pPic02 {
-  height: 100px;
-  width: 577px;
-  padding: 35px;
-  background-color: white;
-  color: black;
-  margin-left: 28px;
+.imgHero {
+  height: 500px;
+  filter: brightness(90%);
+  margin-top: 60px;
+}
+
+.molenColor {
+  color: #1973ea;
+}
+
+.headerPoint {
+  color: #1973ea;
+  height: 5px;
+  width: 5px;
+}
+
+.imgTesti {
+  filter: brightness(50%);
 }/*# sourceMappingURL=style.css.map */
