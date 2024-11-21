@@ -24461,4 +24461,24 @@ readers do not read off random characters that represent icons */
 
 .imgTesti {
   filter: brightness(50%);
+}
+
+.contact-section .info-box {
+  background: #fff;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+.contact-section .info-box i {
+  font-size: 2rem;
+}
+.contact-section .info-box:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  background: #f8f9fa;
+  color: #6c757d;
+}
+footer p {
+  margin-bottom: 0;
 }/*# sourceMappingURL=style.css.map */
