@@ -486,7 +486,7 @@ select:disabled {
 button,
 [type=button],
 [type=reset],
-
+[type=submit] 
 button:not(:disabled),
 [type=button]:not(:disabled),
 [type=reset]:not(:disabled),
@@ -542,7 +542,6 @@ legend + * {
 }
 
 [type=search] {
-  -webkit-appearance: textfield;
   outline-offset: -2px;
 }
 
@@ -564,7 +563,6 @@ legend + * {
 
 ::file-selector-button {
   font: inherit;
-  -webkit-appearance: button;
 }
 
 output {
@@ -24503,6 +24501,114 @@ readers do not read off random characters that represent icons */
 
 .cNav {
   width: 1500px;
+}
+
+.imgHero {
+  height: 500px;
+  filter: opacity(50%);
+  margin-top: 60px;
+}
+
+.molenColor {
+  color: #1973ea;
+}
+
+.headerPoint {
+  color: #1973ea;
+  height: 5px;
+  width: 5px;
+}
+
+.btn {
+  background-color: #1973ea;
+}
+
+.bottom-leftMolengeek1 {
+  position: absolute;
+  bottom: 250px;
+  left: 320px;
+}
+
+.bottom-leftMolengeek2 {
+  position: absolute;
+  bottom: 180px;
+  left: 320px;
+}
+
+.bottom-leftMolengeek3 {
+  position: absolute;
+  bottom: 150px;
+  left: 320px;
+  font-size: 0.9rem;
+}
+
+.imgTesti {
+  filter: brightness(50%);
+}
+
+.marginTest {
+  margin-top: 100px;
+}
+
+.contact-section .info-box {
+  background: #fff;
+  transition: 0.3s;
+}
+.contact-section .info-box i {
+  font-size: 2rem;
+}
+.contact-section .info-box:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  background: #f8f9fa;
+  color: #6c757d;
+}
+footer p {
+  margin-bottom: 0;
+}
+
+.marginFooter {
+  margin-left: 280px;
+}
+
+.molenColor {
+  color: #1973ea;
+}
+
+footer {
+  background-color: #f1f6fe;
+}
+
+.h5Color {
+  color: #8c8c8c;
+}
+
+.heightP {
+  font-size: 0.9rem;
+}
+
+.lineH {
+  line-height: 2rem;
+}
+
+.h2Color {
+  color: #1973ea;
+}
+
+.widthPill {
+  width: 100px;
+}
+
+.spanSVG {
+  border: 3px dotted #e2edfd;
+  border-radius: 55%;
+  padding: 5%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
