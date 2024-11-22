@@ -486,7 +486,9 @@ select:disabled {
 button,
 [type=button],
 [type=reset],
-[type=submit] 
+[type=submit] {
+  -webkit-appearance: button;
+}
 button:not(:disabled),
 [type=button]:not(:disabled),
 [type=reset]:not(:disabled),
@@ -542,6 +544,7 @@ legend + * {
 }
 
 [type=search] {
+  -webkit-appearance: textfield;
   outline-offset: -2px;
 }
 
@@ -563,6 +566,7 @@ legend + * {
 
 ::file-selector-button {
   font: inherit;
+  -webkit-appearance: button;
 }
 
 output {
@@ -24542,6 +24546,11 @@ readers do not read off random characters that represent icons */
   font-size: 0.9rem;
 }
 
+@media (max-width: 768px) {
+  section {
+    max-width: 768px;
+  }
+}
 .imgTesti {
   filter: brightness(50%);
 }
@@ -24595,6 +24604,7 @@ footer {
 
 .h2Color {
   color: #1973ea;
+  margin-top: 20px;
 }
 
 .widthPill {
@@ -24741,7 +24751,6 @@ p {
   font-size: 2.5rem;
   color: #007bff;
   margin-bottom: 1rem;
-  background: #f1f6fe;
   margin-left: 40%;
   margin-right: 40%;
 }
