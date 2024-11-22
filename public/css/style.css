@@ -24445,7 +24445,7 @@ readers do not read off random characters that represent icons */
 
 .imgHero {
   height: 500px;
-  filter: brightness(90%);
+  filter: opacity(50%);
   margin-top: 60px;
 }
 
@@ -24461,6 +24461,10 @@ readers do not read off random characters that represent icons */
 
 .imgTesti {
   filter: brightness(50%);
+}
+
+.marginTest {
+  margin-top: 100px;
 }
 
 .contact-section .info-box {
@@ -24488,4 +24492,12 @@ footer p {
 
 .molenColor {
   color: #1973ea;
+}
+
+footer {
+  background-color: #f1f6fe;
+}
+
+.h5Color {
+  color: #8c8c8c;
 }/*# sourceMappingURL=style.css.map */
