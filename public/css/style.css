@@ -24503,8 +24503,8 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
-.cNav {
-  width: 1500px;
+.sectionHero {
+  width: 100%;
 }
 
 .imgHero {
@@ -24550,6 +24550,21 @@ readers do not read off random characters that represent icons */
   section {
     max-width: 768px;
   }
+  .bottom-leftMolengeek1, .bottom-leftMolengeek2, .bottom-leftMolengeek3 {
+    text-align: left;
+  }
+  .bottom-leftMolengeek1 {
+    left: 0;
+    margin-left: 150px;
+  }
+}
+@media (max-width: 426px) {
+  section {
+    max-width: 426px;
+  }
+  section .imgHero {
+    max-width: 426px;
+  }
 }
 .imgTesti {
   filter: brightness(50%);
@@ -24559,6 +24574,11 @@ readers do not read off random characters that represent icons */
   margin-top: 100px;
 }
 
+@media (max-width: 768px) {
+  .widthCarousel {
+    max-width: 768px;
+  }
+}
 .contact-section .info-box {
   background: #fff;
   transition: 0.3s;
@@ -24617,6 +24637,35 @@ footer {
   padding: 5%;
 }
 
+@media (min-width: 426px) and (max-width: 768px) {
+  .queryTablet {
+    max-width: 768px;
+  }
+  .queryTablet .queryTablet2 {
+    width: 550px;
+    margin-left: 85px;
+  }
+  .marginFooter {
+    margin-right: 100px;
+  }
+}
+@media (max-width: 426px) {
+  iframe {
+    display: none;
+  }
+  .queryTablet {
+    max-width: 426px;
+  }
+  .queryTablet .queryTablet2 {
+    margin-left: 15px;
+  }
+  .formFooter {
+    margin-left: 15px;
+  }
+  .marginFooter {
+    margin-right: 50px;
+  }
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -24678,6 +24727,21 @@ h3.section-title .highlight, .section-title.h3 .highlight {
   text-align: left;
 }
 
+@media (max-width: 768px) {
+  .featured-services {
+    max-width: 768px;
+    flex-wrap: wrap;
+  }
+  .featured-services .services-container {
+    max-width: 500px;
+  }
+}
+@media (max-width: 425px) {
+  .featured-services {
+    max-width: 425px;
+    flex-wrap: wrap;
+  }
+}
 h2, .h2 {
   font-size: 2rem;
   font-weight: bold;
@@ -24751,6 +24815,7 @@ p {
   font-size: 2.5rem;
   color: #007bff;
   margin-bottom: 1rem;
+  background: #f1f6fe;
   margin-left: 40%;
   margin-right: 40%;
 }
@@ -24766,6 +24831,15 @@ p {
   color: #555;
 }
 
+@media (max-width: 425px) {
+  .section-services {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .section-services .service-box {
+    max-width: 300px;
+  }
+}
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -24819,4 +24893,23 @@ body {
 .team-member p {
   color: #d2d2d2;
   font-size: 0.7em;
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .team-section {
+    max-width: 768px;
+    flex-wrap: wrap;
+  }
+  .team-section .team-container {
+    max-width: 500px;
+    margin-left: 90px;
+  }
+  .team-section {
+    max-width: 768px;
+    flex-wrap: wrap;
+  }
+  .team-section .team-container {
+    max-width: 500px;
+    margin-left: 90px;
+  }
 }/*# sourceMappingURL=style.css.map */
