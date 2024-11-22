@@ -24570,6 +24570,22 @@ footer {
   color: #8c8c8c;
 }
 
+.heightP {
+  font-size: 0.9rem;
+}
+
+.lineH {
+  line-height: 2rem;
+}
+
+.h2Color {
+  color: #1973ea;
+}
+
+.widthPill {
+  width: 100px;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }/*# sourceMappingURL=style.css.map */
