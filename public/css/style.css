@@ -24503,8 +24503,8 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
-.cNav {
-  width: 1500px;
+.sectionHero {
+  width: 100%;
 }
 
 .imgHero {
@@ -24558,6 +24558,14 @@ readers do not read off random characters that represent icons */
     margin-left: 150px;
   }
 }
+@media (max-width: 426px) {
+  section {
+    max-width: 426px;
+  }
+  section .imgHero {
+    max-width: 426px;
+  }
+}
 .imgTesti {
   filter: brightness(50%);
 }
@@ -24566,6 +24574,11 @@ readers do not read off random characters that represent icons */
   margin-top: 100px;
 }
 
+@media (max-width: 768px) {
+  .widthCarousel {
+    max-width: 768px;
+  }
+}
 .contact-section .info-box {
   background: #fff;
   transition: 0.3s;
@@ -24623,7 +24636,7 @@ footer {
   padding: 5%;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 426px) and (max-width: 768px) {
   .queryTablet {
     max-width: 768px;
   }
@@ -24633,6 +24646,23 @@ footer {
   }
   .marginFooter {
     margin-right: 100px;
+  }
+}
+@media (max-width: 426px) {
+  iframe {
+    display: none;
+  }
+  .queryTablet {
+    max-width: 426px;
+  }
+  .queryTablet .queryTablet2 {
+    margin-left: 15px;
+  }
+  .formFooter {
+    margin-left: 15px;
+  }
+  .marginFooter {
+    margin-right: 50px;
   }
 }
 body {
@@ -24703,6 +24733,12 @@ h3.section-title .highlight, .section-title.h3 .highlight {
   }
   .featured-services .services-container {
     max-width: 500px;
+  }
+}
+@media (max-width: 425px) {
+  .featured-services {
+    max-width: 425px;
+    flex-wrap: wrap;
   }
 }
 h2, .h2 {
@@ -24794,6 +24830,15 @@ p {
   color: #555;
 }
 
+@media (max-width: 425px) {
+  .section-services {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .section-services .service-box {
+    max-width: 300px;
+  }
+}
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -24849,7 +24894,15 @@ body {
   font-size: 0.7em;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 426px) and (max-width: 768px) {
+  .team-section {
+    max-width: 768px;
+    flex-wrap: wrap;
+  }
+  .team-section .team-container {
+    max-width: 500px;
+    margin-left: 90px;
+  }
   .team-section {
     max-width: 768px;
     flex-wrap: wrap;
